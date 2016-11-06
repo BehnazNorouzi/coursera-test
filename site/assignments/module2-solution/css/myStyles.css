@@ -1,9 +1,18 @@
-body { margin:0; padding:0;}
+body { 
+	display: block;
+	margin: 20px;
+}
 *{
 	box-sizing: border-box;
 }
 
+html {
+	display: block;
+}
+
 h1 {
+	display: block;
+	font-size: 2em;
 	color: #6e4131;
 	text-align: center;
 	margin-bottom: 20px;
@@ -13,7 +22,16 @@ h1 > span {
 	color: #cccc00;
 }
 
+.row{
+	width: 100%;
+}
+
+div{
+	display: block;
+}
+
 section {
+	position: relative;
 	border: 1px dashed #693c30;
 	border-radius: 0px;
 	background-color: #f7f0ee;
@@ -23,7 +41,7 @@ section {
 	font-family: helvetica;
 	color: #693d30;
 	overflow: scroll;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 	margin-left: 10px;
 	margin-right: 10px;
 }
@@ -34,7 +52,7 @@ section p:nth-child(2){
 }
 
 section p:nth-child(1){
-	width: 150px;
+	width: 50%;
 	float: right;
 	text-align: center;
 	border-top: none;
@@ -47,9 +65,7 @@ section p:nth-child(1){
 	color: white;
 }
 
-.row{
-	width: 100%;
-}
+
 .LatteMacchiato p:nth-child(1){
 	background-color: #c6ebc6;
 }
